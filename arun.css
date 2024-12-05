@@ -1,0 +1,45 @@
+.table{
+color: rgb(107, 226, 43);
+box-shadow: 0 0 30px red;
+max-width: 300px;
+margin-left: 660px;
+margin-bottom: 150px;
+padding-bottom: 10px;
+
+
+}
+.table :active{
+    color: white;
+}
+.table :hover{
+    background-color: lightcoral;
+}
+
+.one{
+    padding-left: 650px;
+    width: fit-content;
+   
+}
+.table input{
+    width: 72px;
+    height: 65px;
+    margin-bottom: 5px;
+    top: 300px;
+    background-color: aqua;
+    
+}
+.one input{
+   width: 284px;
+   padding-left: 22px;
+   height: 70px;
+   color: rgb(107, 226, 43);
+   box-shadow: 0 0 20px rgb(178, 32, 32);
+}
+.you input{
+    background-color: rgb(47, 0, 255);
+    width: 60px;
+    height: 60px;
+    top: 300px;
+
+    
+}

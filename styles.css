@@ -1,0 +1,34 @@
+body{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    background-color: aliceblue;
+    box-shadow: 0 0 20px red;
+    height: 440px;
+    width: 400px;
+}
+.calculate #aarun{
+    grid-column: span 4;
+    height: 60px;
+    width: 400px;
+    box-shadow: 0 0 10px red;
+    padding-top: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 55px;
+    text-align: right;
+}
+button{
+    font-size: 15px;
+}
+.buttons .me{
+    background-color: rgb(255, 0, 0);
+}

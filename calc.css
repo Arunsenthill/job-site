@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.arun{
+    background-color: #ecf0f2;
+    padding: 15px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 270px;
+    background-color: rgb(35, 33, 33);
+    box-shadow: 0 0 15px red ;
+    padding-top: 100px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+button{
+    height: 48px;
+    width: 48px;
+    background-color: rgb(66, 45, 45);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    
+}
+.arun{
+  box-shadow: 0 0 45px red;
+  margin-left: 400px;
+  margin-right: 150px;
+  margin-top: 150px;
+  padding-left: 70px;
+  background-color: black;
+  height: 440px;
+  width: 350px;
+}
+.arun .par{
+  background-color: rgb(185, 129, 25);
+  color: white;
+}
+.arun #del{
+    background-color: rgb(103, 18, 18);
+    color: white;
+}
+.arun .clear{
+    background-color: rgb(242, 63, 63);
+    color: white;
+}
+
+.arun :hover{
+
+   background-color: lightseagreen;
+}
+.arun #del :hover{
+    background-color: darkgoldenrod;
+}
+
